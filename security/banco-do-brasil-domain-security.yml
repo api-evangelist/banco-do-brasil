@@ -1,0 +1,22 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: developers.bb.com.br
+  https: true
+  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get
+    local issuer certificate (_ssl.c:1082)'
+  hsts: null
+domains:
+- domain: bb.com.br
+  dnssec: true
+  caa:
+  - 0 issue "digicert.com"
+  - 0 issue "comodoca.com"
+  - 0 issue "certisign.com.br"
+  - 0 issue "certigna.com"
+  - 0 iodef "mailto:ditec.redes@bb.com.br"
+  - 0 issuewild "soluti.com.br"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
