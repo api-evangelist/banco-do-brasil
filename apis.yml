@@ -1,4 +1,16 @@
 aid: banco-do-brasil
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/banco-do-brasil.png
 name: Banco do Brasil
 description: "All Banco do Brasil financial transaction APIs"
 url: https://developers.bb.com.br/home
