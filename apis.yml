@@ -39,7 +39,6 @@ apis:
   - name: Banco do Brasil
     description: "All Banco do Brasil financial transaction APIs"
     humanURL: https://developers.bb.com.br/home
-    baseURL: https://developers.bb.com.br/home
     tags:
       - Finance
     properties:
