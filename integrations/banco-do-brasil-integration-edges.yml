@@ -1,0 +1,76 @@
+edges:
+- partner_name: Open Finance Brasil
+  partner: null
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://data.directory.openbankingbrasil.org.br/participants
+  contract_reference:
+    register: Open Finance Brasil directory (Banco Central do Brasil)
+    spec_file: null
+    role: participant
+    registered_name: BANCO DO BRASIL S.A.
+    register_id: 9415f224-9f58-56b5-af4c-085b4438e4eb
+    matched_domain: bb.com.br
+    api_families:
+    - accounts
+    - admin
+    - bank-fixed-incomes
+    - channels_banking-agents
+    - channels_branches
+    - channels_electronic-channels
+    - channels_phone-channels
+    - consents
+    - credit-cards-accounts
+    - credit-fixed-incomes
+    - credit-portability
+    - customers-business
+    - customers-personal
+    - discovery_outages
+    - discovery_status
+    - enrollments
+    - exchanges
+    - financings
+    - funds
+    - invoice-financings
+    - loans
+    - opendata-accounts_business-accounts
+    - opendata-accounts_personal-accounts
+    - opendata-capitalization_bonds
+    - opendata-creditcards_business-credit-cards
+    - opendata-creditcards_personal-credit-cards
+    - opendata-exchange_online-rates
+    - opendata-exchange_vet-values
+    - opendata-financings_business-financings
+    - opendata-financings_personal-financings
+    - opendata-insurance_personals
+    - opendata-investments_bank-fixed-incomes
+    - opendata-investments_credit-fixed-incomes
+    - opendata-investments_funds
+    - opendata-investments_treasure-titles
+    - opendata-investments_variable-incomes
+    - opendata-invoicefinancings_business-invoice-financings
+    - opendata-invoicefinancings_personal-invoice-financings
+    - opendata-loans_business-loans
+    - opendata-loans_personal-loans
+    - opendata-pension_risk-coverages
+    - opendata-pension_survival-coverages
+    - opendata-unarranged_business-unarranged-account-overdraft
+    - opendata-unarranged_personal-unarranged-account-overdraft
+    - payments-consents
+    - payments-pix
+    - payments-pix-recurring-payments
+    - payments-pix-recurring-payments-automatic
+    - payments-recurring-consents
+    - payments-recurring-consents-automatic
+    - resources
+    - treasure-titles
+    - unarranged-accounts-overdraft
+    - variable-incomes
+    detected_by: sweep-standard-registers.py
+    detected: '2026-10-12'
+generated: '2026-10-12'
+method: searched
+checked:
+- https://data.directory.openbankingbrasil.org.br/participants
