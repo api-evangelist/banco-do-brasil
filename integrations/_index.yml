@@ -77,3 +77,151 @@
     detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
+- slug: banco-do-brasil-open-finance-brasil-functional-certification
+  label: Open Finance Brasil functional certification
+  partner_name: Open Finance Brasil functional certification
+  category: open finance conformance (Brazil)
+  type: register
+  channel: regulator-register
+  evidence: https://data.directory.openbankingbrasil.org.br/participants
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Open Finance Brasil directory, per-family CertificationStatus (submissions in github.com/OpenBanking-Brasil/conformance)
+    spec_file: null
+    standard: Open Finance Brasil
+    role: certified-participant
+    registrations:
+    - registered_name: BANCO DO BRASIL S.A.
+      register_id: 9415f224-9f58-56b5-af4c-085b4438e4eb
+      cnpj: 00000000000191
+      matched_domain: bb.com.br
+      matched_by: domain
+    certified_products:
+    - product: accounts
+      families:
+      - accounts
+      - credit-cards-accounts
+      status: Self-Certified
+      expires: '2027-07-27'
+      certification_uri: https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.5.1/00000000_API-Pagamentos-v5.0.0-_accounts_v2.5.1_23-07-2026.json
+    - product: credit
+      families:
+      - credit-portability
+      - financings
+      - invoice-financings
+      - loans
+      - unarranged-accounts-overdraft
+      status: Self-Certified
+      expires: '2027-05-26'
+      certification_uri: https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/00000000_API%20BB%20v2_loans_v2-OL_04-10-2022.zip
+    - product: customer-data
+      families:
+      - consents
+      - customers-business
+      - customers-personal
+      - resources
+      status: Self-Certified
+      expires: '2027-04-30'
+      certification_uri: https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/00000000_API%20BB%20v2_business_v2-OL_04-10-2022.zip
+    - product: exchange
+      families:
+      - exchanges
+      status: Self-Certified
+      expires: '2027-04-30'
+      certification_uri: https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/exchanges/1.0.0/00000000_Consents-v3.0.0-Resources-v3.0.0-Exchanges-v1.0.0_exchanges_v1.0_09-04-2024.json
+    - product: investments
+      families:
+      - bank-fixed-incomes
+      - credit-fixed-incomes
+      - funds
+      - treasure-titles
+      - variable-incomes
+      status: Self-Certified
+      expires: '2027-03-16'
+      certification_uri: https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/funds/1.0.0/00000000_APIs-4B-v1_funds-timezone_v1_23-09-2023.json
+    - product: open-data
+      families:
+      - channels_banking-agents
+      - channels_branches
+      - channels_electronic-channels
+      - channels_phone-channels
+      - opendata-accounts_business-accounts
+      - opendata-accounts_personal-accounts
+      - opendata-capitalization_bonds
+      - opendata-creditcards_business-credit-cards
+      - opendata-creditcards_personal-credit-cards
+      - opendata-exchange_online-rates
+      - opendata-exchange_vet-values
+      - opendata-financings_business-financings
+      - opendata-financings_personal-financings
+      - opendata-insurance_personals
+      - opendata-investments_bank-fixed-incomes
+      - opendata-investments_credit-fixed-incomes
+      - opendata-investments_funds
+      - opendata-investments_treasure-titles
+      - opendata-investments_variable-incomes
+      - opendata-invoicefinancings_business-invoice-financings
+      - opendata-invoicefinancings_personal-invoice-financings
+      - opendata-loans_business-loans
+      - opendata-loans_personal-loans
+      - opendata-pension_risk-coverages
+      - opendata-pension_survival-coverages
+      - opendata-unarranged_business-unarranged-account-overdraft
+      - opendata-unarranged_personal-unarranged-account-overdraft
+      status: Self-Certified
+      expires: '2027-10-14'
+      certification_uri: https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=OLUdTv5V57x0w&public=true
+    - product: payments
+      families:
+      - enrollments
+      - payments-consents
+      - payments-pix
+      status: Self-Certified
+      expires: '2027-10-01'
+      certification_uri: https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/5.0.0/00000000_API-Pagamentos-v5.0.0_payments_v5.0_23-05-2026.json
+    - product: recurring-payments
+      families:
+      - payments-pix-recurring-payments
+      - payments-pix-recurring-payments-automatic
+      - payments-recurring-consents
+      - payments-recurring-consents-automatic
+      status: Self-Certified
+      expires: '2026-11-03'
+      certification_uri: https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/automatic-payments/2.0.0/00000000_API-Pagamentos-automáticos-v2.0.0_automatic-payments_v2.0.0_17-04-2025.json
+    signal_note: one entry per PRODUCT TYPE, lapsed flagged; family counts are context, never read
+    detected_by: sweep-latam-open-finance.py
+    detected: '2026-10-15'
+  status: not-a-workflow
+  arazzo: null
+- slug: banco-do-brasil-pix-banco-central-do-brasil
+  label: Pix (Banco Central do Brasil)
+  partner_name: Pix (Banco Central do Brasil)
+  category: instant payments (Brazil)
+  type: register
+  channel: regulator-register
+  evidence: https://www.bcb.gov.br/estabilidadefinanceira/participantespix
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Pix participants (Banco Central do Brasil, https://www.bcb.gov.br/content/estabilidadefinanceira/participantes_pix/lista-participantes-instituicoes-em-adesao-pix-20261015.csv)
+    spec_file: null
+    standard: Pix
+    role: pix-participant
+    registrations:
+    - registered_name: BCO DO BRASIL S.A.
+      ispb: '00000000'
+      cnpj: 00.000.000/0001-91
+      institution_type: Banco Múltiplo
+      spi_participation: Direta
+      pix_participation: Obrigatória
+      pix_modality: Provedor de Conta Transacional
+      payment_initiation: true
+      matched_domain: bb.com.br
+      matched_by: domain
+      identity: Open Finance Brasil directory, same CNPJ 00000000000191 ('BANCO DO BRASIL S.A.')
+    signal_note: 'participation only: the domain comes from a labelled lookup (registrations[].identity)'
+    detected_by: sweep-latam-open-finance.py
+    detected: '2026-10-15'
+  status: not-a-workflow
+  arazzo: null
